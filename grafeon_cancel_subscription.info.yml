@@ -1,0 +1,6 @@
+name: Grafeon - Cancel Subscription
+description: Pridáva špeciálnu podstránku pre zrušenie predplatného samotným užívateľom.
+package: Grafeon
+
+type: module
+core: 8.x

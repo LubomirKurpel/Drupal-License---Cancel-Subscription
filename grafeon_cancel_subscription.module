@@ -1,0 +1,11 @@
+<?php
+
+use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Datetime\DrupalDateTime;
+
+/**
+ * Implements hook_cron().
+ */
+function grafeon_cancel_subscription_cron() {
+  \Drupal::service('grafeon_cancel_subscription.cron')->run();
+}

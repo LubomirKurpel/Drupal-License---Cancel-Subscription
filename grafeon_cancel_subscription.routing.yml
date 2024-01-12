@@ -1,0 +1,7 @@
+grafeon_cancel_subscription.cancel:
+  path: '/cancel_subscription'
+  defaults:
+    _controller: '\Drupal\grafeon_cancel_subscription\Controller\GrafeonCancelSubscriptionController::cancel'
+    _title: 'Cancel Subscription'
+  requirements:
+    _role: 'authenticated'

@@ -1,0 +1,4 @@
+services:
+  grafeon_cancel_subscription.cron:
+    class: Drupal\grafeon_cancel_subscription\Cron
+    arguments: ['@entity_type.manager', '@datetime.time']
